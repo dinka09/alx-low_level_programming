@@ -4,7 +4,7 @@
 /**
  * main - My first code with c
  *
- * Return : Always 0 (success)
+ * Return : Always 0 (Success)
  */
 int main(void)
 {
