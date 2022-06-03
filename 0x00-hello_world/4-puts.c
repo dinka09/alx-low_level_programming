@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - My first code with c
+ *
  * Return : Always 0 (success)
  */
 int main(void)
