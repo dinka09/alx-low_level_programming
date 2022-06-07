@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main - print _putchar
- *
- * Return: Always 0 (Successs)
- */
-int main(void)
+* main - print _putchar
+*
+* Return: Always 0 (Successs)
+*/
+int _putchar(char c);
 {
 	char word[8] = "_putchar";
 	int i;
