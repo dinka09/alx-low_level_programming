@@ -1,17 +1,18 @@
 #include "main.h"
 /**
- * Description - writint the word _putchar to stdout
- *
+ * _putchar - writint the word _putchar to stdout
+ *@c: The characters to printout
+ * 
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
 int main(void)
-{	char *pt = "_putchar";
-	
-	while (*pt)
+{	char w[i] = "_putchar";
+	int i;
+	while (i = 0; i <= 8;)
 	{
-		_putchar(*pt);
-		*pt++;
+		_putchar(i);
+		i++;
 	}
 	_putchar('\n');
 	return (0);
