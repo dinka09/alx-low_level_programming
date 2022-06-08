@@ -5,7 +5,7 @@
  *
  * Return: ALways 0 (Success)
  */
-void print_alphabet(void)
+int _putchar(int _char)
 {
 	char alphabet;
 
