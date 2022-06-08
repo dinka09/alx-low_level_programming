@@ -1,18 +1,22 @@
+#include <unistd.h>
 #include <stdio.h>
+#include "main.h"
 /**
 * main - print _putchar
 *
 * Return: Always 0 (Successs)
 */
-int _putchar(char c);
+int _putchar(char c)
+int main(void)
 {
-	char word[8] = "_putchar";
+	{
+	char w[] = "_putchar";
 	int i;
 
 	for(i = 0; i <= 8; i++)
-	{
-		putchar(word[i]);
-	}
-	putchar('\n');
+	
+		_putchar(w[i]);	
+	_putchar('\n');
 	return (0);
+	}
 }
