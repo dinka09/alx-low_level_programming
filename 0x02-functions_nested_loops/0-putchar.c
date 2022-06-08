@@ -7,12 +7,14 @@
  * On error, -1 is returned, and errno is set appropriately.
  */
 int main(void)
-{	char w[i] = "_putchar";
-	int i;
-	for (i = 0; i <= 8; i++)
-	{
-		_putchar(i);
-	}
-	_putchar('\n');
-	return (0);
+{
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	return 0;
 }
