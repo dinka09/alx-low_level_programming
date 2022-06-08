@@ -1,22 +1,18 @@
-#include <unistd.h>
-#include <stdio.h>
 #include "main.h"
 /**
-* main - print _putchar
-*
-* Return: Always 0 (Successs)
-*/
-int _putchar(char c)
+ * Description - writint the word _putchar to stdout
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
 int main(void)
-{
-	{
-	char w[] = "_putchar";
-	int i;
-
-	for(i = 0; i <= 8; i++)
+{	char *pt = "_putchar";
 	
-		_putchar(w[i]);	
+	while (*pt)
+	{
+		_putchar(*pt);
+		*pt++;
+	}
 	_putchar('\n');
 	return (0);
-	}
 }
