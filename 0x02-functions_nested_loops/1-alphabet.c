@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Pringitn alphabets using _putchar
+ * Print_alphabet i- >printing lower case alphabets
  *
  * Return: ALways 0 (Success)
  */
