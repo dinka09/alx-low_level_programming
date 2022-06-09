@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_last_digit - Printing last digit of the gven number
+ *print_last_digit - Printing last digit of the gven number
  * @n: the last digit number
  * Return: the last digitof the given integer
  */
