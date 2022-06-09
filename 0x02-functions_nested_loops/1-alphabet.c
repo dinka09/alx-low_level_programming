@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Print_alphabet >printing lower case alphabets
+ * Print_alphabet - printing lower case alphabets
  *
  * Return: ALways 0 (Success)
  */
