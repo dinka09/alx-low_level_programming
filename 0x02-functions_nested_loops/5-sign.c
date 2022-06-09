@@ -1,12 +1,12 @@
 #include "main.h"
 /**
  * print_sign - printing sign of the give number
- *
+ * @n: checking given number if positve of negative
  * Return: returns 1 0 -1 based on the value of the given number
  */
 int print_sign(int n)
 {
-	for (n > 0;)
+	if (n > 0)
 	{
 		_putchar('+');
 		return (1);
