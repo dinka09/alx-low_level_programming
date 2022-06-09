@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * printing - putchar in cusmot function
+ *main - printing - putchar in cusmot function
  *
  * Return: Always 0
  */
