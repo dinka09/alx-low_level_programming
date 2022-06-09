@@ -1,11 +1,10 @@
-#include <unistd.h>
 #include "main.h"
 /**
  * main - Pringitn alphabets using _putchar
  *
  * Return: ALways 0 (Success)
  */
-int _putchar(int _char)
+void print_alphabet(void);
 {
 	char alphabet;
 
@@ -13,6 +12,9 @@ int _putchar(int _char)
 	{
 		_putchar(alphabet);
 	}
+	{
 	_putchar('\n');
+	}
 }
+
 
