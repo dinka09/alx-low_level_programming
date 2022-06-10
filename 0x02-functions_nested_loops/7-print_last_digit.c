@@ -4,15 +4,15 @@
  * @n: integer input
  * Return: The last digit
  */
-int print_last_digit(int n)
+int print_last_digit(int nld)
 {
-	int x;
+	int pld;
 
-	x = n % 10;
-	if (n < 0)
+	pld = nld % 10;
+	if (nld < 0)
 	{
-		n = (-1 * n);
+		nld = (-1 * nld);
 	}
-	_putchar(x + '0');
-	return (x);
+	_putchar(pld + '0');
+	return (pld);
 }
