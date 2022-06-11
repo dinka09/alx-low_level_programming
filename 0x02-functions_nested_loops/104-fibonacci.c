@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - finding and printing the first 98 fibbonacci numbers starting from * 1 and 2
+ * main - finding and printing the first 98 fibbonacci numbers strat frm 1,2
  * Return: Always 0 (Success)
  */
 int main(void)
