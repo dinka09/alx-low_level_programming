@@ -1,4 +1,4 @@
-#include <srdio.h>
+#include <stdio.h>
 /**
  * main - finding and printing the first 98 fibbonacci numbers starting from * 1 and 2
  * Return: Always 0 (Success)
