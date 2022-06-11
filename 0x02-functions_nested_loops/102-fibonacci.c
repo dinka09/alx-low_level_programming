@@ -13,7 +13,7 @@ int main(void)
 	{
 		if (j != 20365011074)
 		{
-			printf("%1d, ", j);
+			printf("%ld, ", j);
 		} else
 		{
 			printf("%ld\n", j);
