@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * puts - functions that print ever other charachters of the string starting* with the first charachter
+ * puts - functions that print ever other charachters of the strini
  * @str: input
  * Return: print
  */
