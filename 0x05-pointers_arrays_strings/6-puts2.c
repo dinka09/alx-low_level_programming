@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * puts - functions that print ever other charachters of the string
+ * puts2 - functions that print ever other charachters of the string
  * @str: input
  * Return: print
  */
@@ -13,7 +13,7 @@ void puts2(char *str)
 		if ((i % 2) == 0)
 			_putchar(str[i]);
 		else
-			continue;	
+			continue;
 	}
 	 _putchar('\n');
 }
