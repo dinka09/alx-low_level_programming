@@ -14,10 +14,10 @@ int main(void)
 	i = 0;
 
 	srand(time(NULL));
-	while (n < 2645);
 	{
-	r = rand() % 122;
-	if (r > 32)
+		while (n < 2645);
+		r = rand() % 122;
+		if (r > 32)
 		{	
 			a[i++] = r;
 			n += r;
