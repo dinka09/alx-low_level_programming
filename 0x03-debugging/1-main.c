@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - causes that goes to infinite
- * Return: 0
+ * Return: ALways 0 (Success)
  */
 int main(void)
 {
