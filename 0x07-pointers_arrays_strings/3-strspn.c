@@ -17,9 +17,11 @@ unsigned int _strspn(char *s, char *accept)
 		{
 			if (accept[a] == s[b])
 			{
-				b++;
+				t++;
 			}
-			a++;
+			b++;
+		}
+		a++
 	}
 	return (t);
 }
