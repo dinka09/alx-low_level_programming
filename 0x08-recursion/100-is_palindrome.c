@@ -9,7 +9,7 @@ int palind2(char *a, int l)
 {
 	if (*a == 0)
 		return (l - 1);
-	return (palind2(a + 1, l + 1))
+	return (palind2(a + 1, l + 1));
 }
 /**
  * palind3-  compares string vs string reverse
@@ -34,5 +34,5 @@ int is_palindrome(char *s)
 {
 	int l;
 	l = palind2(s, 0);
-	return (palind3(s, 1);)
+	return (palind3(s, l));
 }
