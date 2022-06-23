@@ -15,11 +15,11 @@ int palind2(char *a, int l)
  * palind3-  compares string vs string reverse
  * @a: string
  * @l: length
- * Rerurn: on success 1 and on error -1
+ * Return: on success 1 and on error -1
  */
 int palind3(char *a, int l)
 {
-	if (*a != *(a + 1))
+	if (*a != *(a + l))
 		return (0);
 	else if (*a == 0)
 		return (1);
@@ -33,6 +33,7 @@ int palind3(char *a, int l)
 int is_palindrome(char *s)
 {
 	int l;
+
 	l = palind2(s, 0);
 	return (palind3(s, l));
 }
