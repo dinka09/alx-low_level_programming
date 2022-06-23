@@ -2,6 +2,7 @@
 /**
  * sqrt2 - Evaluating from 1 to n
  * @a: same number a n
+ * @b: number that iterates from 1 to n
  * Return: on success 1.
  */
 int sqrt2(int a, int b)
