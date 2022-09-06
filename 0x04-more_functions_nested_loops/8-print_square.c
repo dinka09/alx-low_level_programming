@@ -4,12 +4,13 @@
  * @size: sizie variable
  * Return: o.
  */
+void print_square(int size)
 {
-	void print_square(int size)
-	{
-		int x, y;
+	int x, y;
 
-		if (size > 0)
+	if (size > 0)
+	{
+		for (x = 1; x <= size; x++)
 		{
 			for (y = 1; y <= size; y++)
 			{
