@@ -2,10 +2,13 @@
 /**
  * mul - functions that multiply two numbers
  * @a: first number
- * @b: seconf number
+ * @b: second number
  * Return: success integer
  */
 int mul(int a, int b)
 {
-	return (a * b);
+	int mul;
+
+	mul = a * b;
+	return (mul);
 }
